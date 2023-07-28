@@ -10,22 +10,57 @@
 
 body{
     width: 960px;
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
     border: solid blue;
-    align-self: center;
+  /*  align-self: center; */
 
+}
+
+ul.linkbar{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: darkorange;
 }
 
 h1{
     font-size: 48px;
 }
 
+h1, h2, h3, h4{
+    font-family: Garamond, serif;
+    padding-left: 24px;
+}
+
+h2{
+    font-size: 36px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
 p{
-    color: blue;
+    color: darkblue;
 }
 
 img {
     width: auto;
     height: 480px;
+}
+
+li{
+    color: darkblue;
+}
+
+.steps li{
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
