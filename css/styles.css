@@ -1,0 +1,31 @@
+*{
+    background-color: rgb(102, 102, 102);
+    width: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+   /* border: solid red; */
+}
+
+body{
+    width: 960px;
+    padding-left: auto;
+    padding-right: auto;
+    border: solid blue;
+    align-self: center;
+
+}
+
+h1{
+    font-size: 48px;
+}
+
+p{
+    color: blue;
+}
+
+img {
+    width: auto;
+    height: 480px;
+}
