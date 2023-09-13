@@ -19,7 +19,9 @@ body{
 
 .linkbar{
     list-style: none;
-    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
   
     
 }
@@ -28,8 +30,12 @@ body{
     text-decoration: none;
     color: black;
     border: solid 1px darkorange;
-    padding: 4px;
+    padding: 4px 4px 4px 4px;
     font-size: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: auto;
+    display: inline-block;
     
 }
 a:hover{
@@ -39,6 +45,7 @@ a:hover{
 
 h1{
     font-size: 48px;
+    margin-bottom: 10px;
 }
 
 h1, h2, h3, h4{
@@ -67,7 +74,8 @@ li{
 }
 
 h3.section{
-    font-size: 24px;
+    font-size: 28px;
+    padding-left: 16px;
     text-decoration: underline;
 }
 
@@ -94,7 +102,7 @@ ul, ol{
     display: inline-block;
    margin-right: 0px;
    padding-right: 0px;
-  
+   background-color: rgb(115, 115, 115);
 }
 
 .headerimage img{
@@ -108,17 +116,31 @@ ul, ol{
 .intro{
     display: inline-block;
     width: 560px;
-    
+    background-color: rgb(115, 115, 115);
     text-align: left;
    padding-left: 0px;
     margin-left: 0px;
     
 }
 
-.intro h2{
+.recipetitle{
     text-decoration: underline;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
 
+.introblurb{
+    background-color: rgb(115, 115, 115);
+    padding: 10px;
+}
+
+.intro p{
+    background-color: rgb(115, 115, 115);
+}
+
+.portion *{
+    background-color: rgb(115, 115, 115);
+}
 /*
         Move H2 above image, try to make the image, and the paragraph text floating side by side with the h2 title above. Add Borders around the ingredients section, change the background color slightly darker or lighter so it stands out. Do the same with the steps section, being sure to preserve the space between.
 */
